@@ -23,12 +23,13 @@ body{
      
 }
 
-#snake{
+.snake{
     background-color: green;
     border:1px solid white;
 }
 
-#apple{
+.food{
     background-color: red;
     border:1px solid white;
 }
+
