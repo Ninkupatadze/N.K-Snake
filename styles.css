@@ -4,12 +4,15 @@
     
 }
 body{
-    background-color: black;
+    background-color: rgb(12, 12, 12);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #snake-board{
+    background-color: rgb(14, 10, 10);
+    box-shadow: 20px 20px 50px 10px rgb(43, 42, 42);
+    border-radius: 10px;
     display: grid;
     margin-top: 50px;
     border: 1px solid white;
@@ -18,18 +21,19 @@ body{
     grid-template-rows: repeat(30,1fr);
     grid-template-columns: repeat(30,1fr);
     border: 1px solid white;
-    
-    
-     
+        
 }
 
 .snake{
-    background-color: green;
-    border:1px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
 }
 
 .food{
     background-color: red;
-    border:1px solid white;
+    border:3px solid black;
+    border-radius: 100%;
 }
 
